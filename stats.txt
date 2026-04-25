@@ -1,0 +1,47 @@
+============================================================
+  TRAFFIC SIMULATION — STATISTICS REPORT
+============================================================
+  Simulation Duration   : 200 ticks
+  Total Vehicles Generated : 141
+  Total Vehicles Completed : 137
+  Throughput            : 0.6850 vehicles/tick
+  Avg Travel Time       : 10.22 ticks
+  Max Travel Time       : 21 ticks
+  Avg Waiting Time      : 0.01 ticks
+
+  ROAD STATISTICS (sorted by utilisation ↓)
+  --------------------------------------------------------
+  Road                 Util%  MaxQ  Thput
+  --------------------------------------------------------
+  J3->J6               34.0%     4     88
+  J6->J7               17.0%     3     43
+  J1->J2               13.8%     4     46
+  S1->J1               13.7%     4     70
+  J7->SK3              11.8%     3     70
+  J5->J7               10.9%     4     28
+  S2->J3               10.8%     4     56
+  J2->J5               10.5%     4     28
+  J1->J4                9.0%     3     24
+  J6->SK2               7.2%     3     43
+  J2->J3                6.9%     3     18
+  J4->SK1               4.0%     2     24
+  J4->J5                0.0%     0      0
+  J5->J6                0.0%     0      0
+  J7->SK2               0.0%     0      0
+  J3->J5                0.0%     0      0
+  J2->J4                0.0%     0      0
+
+  CONGESTION RANKING (most congested roads)
+  --------------------------------------------------------
+  #1  J3->J6              util=34.0%
+  #2  J6->J7              util=17.0%
+  #3  J1->J2              util=13.8%
+  #4  S1->J1              util=13.7%
+  #5  J7->SK3             util=11.8%
+
+  SINK STATISTICS
+  --------------------------------------------------------
+  Sink 'SK1'       completed=  24  avg_travel=7.2  avg_wait=0.0
+  Sink 'SK2'       completed=  43  avg_travel=10.2  avg_wait=0.0
+  Sink 'SK3'       completed=  70  avg_travel=11.3  avg_wait=0.0
+============================================================
