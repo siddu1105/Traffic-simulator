@@ -1,6 +1,6 @@
 # Modular Multi-Junction Traffic Simulator
 
-**IIT Academic Project — Python 3 | OOP | Discrete-Event Simulation**
+**Python 3 | OOP | Discrete-Event Simulation**
 
 ---
 
